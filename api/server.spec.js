@@ -7,7 +7,7 @@ it("should set db environment to testing", function() {
 });
 
 describe("server", function() {
-  describe("GET /", function() {
+  describe("get/", function() {
     it("should return 200 OK", function() {
       // run the server
       // make a GET request to /
